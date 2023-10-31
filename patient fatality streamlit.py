@@ -40,6 +40,6 @@ if st.button("Predict"):
 
     # Display the prediction result
     if y_pred_rf == 0:
-        st.write("There is no need to worry, recovery is imminent")
+        st.write("There is no need to worry, higher chance of recovery")
     else:
         st.write("The chance of death is high")
