@@ -37,6 +37,6 @@ for parameter in parameters:
 # Now, the entered values are stored in the parameter_values array
 y_pred_rf=a.predict([parameter_values])
 if y_pred_rf==0:
-  print("\n","there is no need to worry, higher chance or recovery")
+  print("\n","there is no need to worry, higher chance of recovery")
 else:
   print("\n","chance of death is high")
